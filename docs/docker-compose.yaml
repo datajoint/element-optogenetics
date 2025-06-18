@@ -15,6 +15,7 @@ services:
       - UPSTREAM_REPO
       - MODE
       - PATCH_VERSION
+      - PYTHONPATH=/main
     volumes:
       - ../docs:/main/docs
       - ../${PACKAGE}:/main/${PACKAGE}
